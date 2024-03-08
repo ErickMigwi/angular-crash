@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    gap: 10vw;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}

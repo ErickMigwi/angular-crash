@@ -1,0 +1,18 @@
+.addTask{
+    width: 100vw;
+    display: flex;
+    margin-top: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+.addTask input{
+    width: 40vw;
+    border:2px solid rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 8px;
+
+}
+.addTask button{
+    background-color: green;
+    color: white;
+}

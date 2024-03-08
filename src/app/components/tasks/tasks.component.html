@@ -1,0 +1,2 @@
+<app-addtask></app-addtask>
+<app-item *ngFor = "let task of tasks" [task] = "task" (onDeleteTask) = "deleteTask(task)" (onToogleTask) = "toogleTask(task)"></app-item>
